@@ -1,3 +1,48 @@
+# Creation of this app
+
+This project was created by following the Udemy course from Coding Revolution called 'React practice course, learn by practicing'.
+
+You can fork or clone this project to get your own copy.
+
+## Recreate the app
+
+Alternatively, you can recreate it from Scratch.
+1. Install Node. It is reccommended to use nvm to do this.
+2. Create a folder locally where you want to store the code. Give the folder the name that you want your app to have.
+
+In Terminal:
+
+```shell
+npx create-react-app .
+```
+
+## Styling
+
+Styling was done with Material UI. To install Material UI using npm: 
+
+```shell
+npm install @mui/material @emotion/react @emotion/styled
+```
+
+Also install the MUI SVG icons:
+
+```shell
+npm install @mui/icons-material
+```
+
+Copy and paste the Roboto font link tag from Google Fonts into index.html in the public folder:
+
+```html
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+/>
+```
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
